@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background: #181818;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+/*Select "Turno, Lider, Linea y Formato"*/
+.select {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.select p {
+    font-size: 1.1em;
+}
+
+select {
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+
+/*Nro de control*/
+.nroControl {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.nroControl fieldset {
+    width: 50%;
+}
+
+fieldset {
+    text-align: center;
+}
+
+/*lista*/
+.lista {
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "brillo caja"
+                         "engobe planar"
+                         "valPlanar valLiner";
+}
+
+.brillo {
+    grid-area: brillo;
+}
+.caja {
+    grid-area: caja;
+}
+.engobe {
+    grid-area: engobe;
+}
+.planar {
+    grid-area: planar;
+}
+.valPlanar {
+    grid-area: valPlanar;
+}
+.valLiner {
+    grid-area: valLiner;
+}
+
+.lista fieldset {
+    margin: 15px;
+}
+
+/*comentarios/observaciones*/
+.comentario {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmar input {
+    margin-right: 10px;
+}
+.confirmar button {
+    margin-left: 15px;
+    background: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.footer {
+    background: #280404;
+}

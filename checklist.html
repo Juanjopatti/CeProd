@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos_checklist.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header" id="idHeader">
+
+        </header>
+        <main class="main" id="idMain">
+            <h2>Checklist Selección</h2>
+            <div class="formulario" id="formulario">
+                <form>
+                    <div class="select">
+                        <p>Turno:
+                            <select name="turno" id="idTurno" >
+                                <option value="1">Mañana</option>
+                                <option value="2">Tarde</option>
+                                <option value="3">Noche</option>
+                            </select>
+                        </p>
+                        <p>Lider:
+                            <select name="lider" id="idLider">
+                                <option value="1">Fitz</option>
+                                <option value="2">Morales</option>
+                                <option value="3">Patti</option>
+                                <option value="4">Rea</option>
+                            </select>
+                        </p>
+                        <p>Linea:
+                            <select name="linea" id="idLinea">
+                                <option value="1">Linea 1</option>
+                                <option value="2">Linea 2</option>
+                                <option value="3">Linea 3</option>
+                            </select>
+                        </p>
+                        <p>Formato:
+                            <select name="formato" id="idFormato">
+                                <option value="1">32x47</option>
+                                <option value="2">43x43</option>
+                                <option value="3">50x50</option>
+                                <option value="4">60x60</option>
+                                <option value="5">60x120</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="nroControl" id="idControl">
+                        <fieldset>
+                            <legend><b>Nro de control</b></legend>
+                            <input type="radio" name="control" value="1">1
+                            <input type="radio" name="control" value="2">2
+                            <input type="radio" name="control" value="3">3
+                            <input type="radio" name="control" value="4">4
+                        </fieldset>
+                    </div>
+                    <div class="lista">
+                        <fieldset>
+                            <legend class="brillo"><b>Brillo y textura</b></legend>
+                            <input type="radio" name="brillo" value="1">Bien
+                            <input type="radio" name="brillo" value="2">Regular
+                            <input type="radio" name="brillo" value="3">Mal
+                        </fieldset>
+                        <fieldset>
+                            <legend class="caja"><b>Control paño/caja</b></legend>
+                            <input type="radio" name="caja" value="1">Bien
+                            <input type="radio" name="caja" value="2">Regular
+                            <input type="radio" name="caja" value="3">Mal
+                        </fieldset>
+                        <fieldset>
+                            <legend class="engobe"><b>Engobe bajo placa</b></legend>
+                            <input type="radio" name="engobe" value="1">Bien
+                            <input type="radio" name="engobe" value="2">Regular
+                            <input type="radio" name="engobe" value="3">Mal
+                        </fieldset>
+                        <fieldset>
+                            <legend class="planar"><b>Planaridad de la placa</b></legend>
+                            <input type="radio" name="planaridad" value="1">Bien
+                            <input type="radio" name="planaridad" value="2">Regular
+                            <input type="radio" name="planaridad" value="3">Mal
+                        </fieldset>
+                        <fieldset>
+                            <legend class="valPlanar"><b>Valores planar</b></legend>
+                            <input type="radio" name="valor_planar" value="1">Bien
+                            <input type="radio" name="valor_planar" value="2">Regular
+                            <input type="radio" name="valor_planar" value="3">Mal
+                            <input type="radio" name="valor_planar" value="3">No aplica
+                        </fieldset>
+                        <fieldset>
+                            <legend class="valLiner"><b>Valores liner</b></legend>
+                            <input type="radio" name="valor_liner" value="1">Bien
+                            <input type="radio" name="valor_liner" value="2">Regular
+                            <input type="radio" name="valor_liner" value="3">Mal
+                            <input type="radio" name="valor_liner" value="3">No aplica
+                        </fieldset>
+                    </div>
+                    <div class="comentario">
+                        <p>Obsevaciones: <br>
+                        <textarea name="comentario" id="idComentario" cols="70" rows="10"></textarea>
+                        </p>
+                    </div>
+                    <div class="confirmar">
+                        <input type="checkbox" name="confirmar" value="1">Confirmar datos ingresados
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer" id="idFooter"><h1>FOOTER</h1></footer>
+    </div>
+    <script src="./js/header.js"></script>
+</body>
+</html>

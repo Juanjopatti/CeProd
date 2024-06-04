@@ -1,0 +1,32 @@
+.img_principal {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.contenido .check {
+    height: 150px;
+    background: #621ff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenido .check a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenido .defectos {
+    height: 150px;
+    background: #18f669;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido .defectos a {
+    color: #fff;
+    text-decoration: none;
+}
